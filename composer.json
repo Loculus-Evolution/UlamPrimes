@@ -1,0 +1,25 @@
+{
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomasz Kuter",
+            "email": "tkuter@loculus.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Loculus\\UlamSpiral\\": "src/UlamSpiral"
+        }
+    }
+}
